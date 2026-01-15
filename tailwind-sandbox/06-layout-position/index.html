@@ -9,28 +9,97 @@
   </head>
   <body>
     <!-- Positioning -->
+    <div class="bg-red-500 w-1/2 h-12 top-2 relative">Parent</div>
+    <br />
+    <br />
+    <div class="bg-red-500 w-1/2 h-12 relative">
+      <p>Parent</p>
+      <div class="bg-blue-200 absolute right-0 top-0">
+        <p>Child</p>
+      </div>
+    </div>
 
     <!-- Top left corner -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute left-0 top-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Top right corner -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute right-0 top-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Bottom left corner -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute left-0 top-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Bottom right corner -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute right-0 bottom-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Span top edge -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-x-0 h-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Span left edge -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-y-0 left-0 w-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Span right edge -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-y-0 right-0 w-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Span bottom edge -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-x-0 bottom-0 h-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Display Classes -->
+    <div>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et totam ut,
+      nemo temporibus dignissimos doloremque repellat molestias minus alias
+      <span class="font-bold">This is inline</span> rerum ratione nulla animi!
+      Dicta ex maiores doloribus minus, veritatis dolor id nesciunt aperiam
+      consequuntur eius ea magni
+      <span class="inline-block font-bold">This is inline block</span>assumenda
+      ratione perspiciatis quaerat? Modi fugiat nemo itaque quos deleniti
+      laborum corrupti fuga vero similique non ad sit error natus amet
+      explicabo, <span class="block font-bold"> This is block</span>odit eveniet
+      facere saepe at eos <span class="hidden">This is hodden</span> dolorem
+      illo doloremque! Voluptatum.
+    </div>
 
     <!-- Z-Index -->
+    <div class="crelative h-36">
+      <div class="absolute left-10 w-24 h-24 bg-blue-300">1</div>
+      <div class="absolute left-20 w-24 h-24 bg-blue-400">2</div>
+      <div class="absolute left-40 w-24 h-24 bg-blue-500">3</div>
+      <div class="absolute left-60 w-24 h-24 z-10 bg-blue-600">4</div>
+      <div class="absolute left-80 w-24 h-24 bg-blue-700">5</div>
+    </div>
 
     <!-- Floats -->
+    <div class="w-1/2">
+      <img
+        class="h-48 w-48 float-right m-4"
+        src="../assets/img/img1.jpg"
+        alt=""
+      />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+        rerum tempora aperiam. Nesciunt voluptas perferendis modi rerum
+        veritatis soluta ab eius ullam impedit cupiditate corporis eum expedita
+        laboriosam maxime beatae veniam illo amet sed, placeat voluptatibus
+        quidem omnis pariatur? Iure, cupiditate! Nihil, illum soluta! Inventore
+        illo ipsam sapiente corrupti eius pariatur! Deleniti maiores at a
+        obcaecati eligendi aut assumenda iste.
+      </p>
+    </div>
   </body>
 </html>
 
